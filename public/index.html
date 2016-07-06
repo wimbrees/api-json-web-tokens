@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <a href="/api/users">Get users (a valid JSON web token is required)</a>
+    </p>
+    <div>
+        <form action="/api/authenticate" method="POST">
+            <input type="text" name="name" placeholder="Nick" value="Nick">
+            <input type="text" name="password" placeholder="password" value="password">
+            <input type="submit" value="Athenticate user and set cookie">
+        </form>
+    </div>
+    <br>    
+    <div>
+        <a href="/clear">Clear cookie</a>
+    </div>
+</body>
+</html>
