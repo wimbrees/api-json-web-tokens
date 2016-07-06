@@ -169,7 +169,7 @@ app.get('/setup', function(req, res) {
 
   // create a sample user
   var nick = new User({ 
-    name: 'Nick Cerminara', 
+    name: 'Nick', 
     password: 'password',
     admin: true 
   });
